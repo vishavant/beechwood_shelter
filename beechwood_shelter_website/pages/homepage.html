@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/beechwood_shelter_website/static/css/style.css">
     <title>Beechwood</title>
 </head>
 <body>
     <header>
-        <img src="/static/images/logo/logo.gif" alt="">
-        <div class="container">
+        <img class="logo" src="/beechwood_shelter_website/static/images/logo/logo.gif" alt="logo">
+        <div class="container header-content">
             <p>Search</p>
             <form action="">
                 <input placeholder="Search" type="text">
@@ -18,24 +18,24 @@
             </form>
             <p>Skip to main content</p>
         </div>
-        <nav>
-            <div class="container">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="">Adopt a pet</a></li>
-                    <li><a href="">Get Involved</a></li>
-                    <li><a href="">Our Programs</a></li>
-                    <li><a href="">News and Event</a></li>
-                    <li><a href="">About the shelter</a></li>
+        <nav class="navbar">
+           
+                <ul class="navbar-list">
+                    <li class="navbar-list-items"><a href="#">Home</a></li>
+                    <li class="navbar-list-items"><a href="">Adopt a pet</a></li>
+                    <li class="navbar-list-items"><a href="">Get Involved</a></li>
+                    <li class="navbar-list-items"><a href="">Our Programs</a></li>
+                    <li class="navbar-list-items"><a href="">News and Event</a></li>
+                    <li class="navbar-list-items"><a href="">About the shelter</a></li>
                 </ul>
-            </div>
+           
         </nav>
     </header>
 
     <main>
         <section class="main-banner">
             <div class="container banner-pic">
-                <img src="/static/images/banner/banner.jpg" alt="banner">
+                <img src="/beechwood_shelter_website/static/images/banner/banner.jpg" alt="banner">
             </div>
             <div class="container banner-text">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eligendi praesentium, incidunt quis modi minus ad quos vitae consectetur quasi iure architecto repudiandae, omnis dolor accusantium expedita iste, esse voluptates.</p>
@@ -44,13 +44,101 @@
 
         <section class="about-beechwood">
             <aside>
-                <img src="/static/images/feature_donate/feature-fair.png" alt="">
-                <img src="/static/images/feature_donate/feature-donate.png" alt="">
+                <img src="/beechwood_shelter_website/static/images/feature_donate/feature-fair.png" alt="">
+                <img src="/beechwood_shelter_website/static/images/feature_donate/feature-donate.png" alt="">
             </aside>
-            <div class="container">
-                <img src="/static/images/story/story.jpg" alt="">
+            <div class="container story">
+                <img src="/beechwood_shelter_website/static/images/story/story.jpg" alt="story">
                 <h4>Another happy ending</h4>
-                <p></p>
+                <p>"We adopted Baily earlier this spring. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi asperiores mollitia accusantium maxime. Ipsum, maiores? Recusandae aut accusamus eaque harum dicta pariatur expedita vero nesciunt nam perferendis! Facilis, culpa aspernatur.</p>
+            </div>
+            <div class="container">
+                <img src="/beechwood_shelter_website/static/images/adopt/adopt-header.png" alt="adopt-coin">
+                <div class="container few_pets">
+                    <div class="pet1">
+                        <img src="/beechwood_shelter_website/static/images/adopt/adopt1.jpg" alt="adopt1">
+                        <p class="pet_name">
+                            Styx
+                        </p>
+                        <p class="pet_des">
+                            Shorthairm, black
+                            Male, 2 Year
+                        </p>
+                    </div>
+                    <div class="pet2">
+                        <img src="/beechwood_shelter_website/static/images/adopt/adopt2.jpg" alt="adopt2">
+                        <p class="pet_name">
+                            Styx
+                        </p>
+                        <p class="pet_des">
+                            Shorthairm, black
+                            Male, 2 Year
+                        </p>
+                    </div>
+                    <div class="pet3">
+                        <img src="/beechwood_shelter_website/static/images/adopt/adopt3.jpg" alt="adopt3">
+                        <p class="pet_name">
+                            Styx
+                        </p>
+                        <p class="pet_des">
+                            Shorthairm, black
+                            Male, 2 Year
+                        </p>
+                    </div>
+                    <div class="pet4">
+                        <img src="/beechwood_shelter_website/static/images/adopt/adopt4.jpg" alt="adopt4">
+                        <p class="pet_name">
+                            Styx
+                        </p>
+                        <p class="pet_des">
+                            Shorthairm, black
+                            Male, 2 Year
+                        </p>
+                    </div>
+                </div>
+                <div class="pet_text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus magni quae velit, at quo delectus, beatae voluptatum aperiam libero soluta accusamus officiis ex ullam asperiores ad minima rem minus ab?
+                    </p>
+                </div>
+                <div class="pet_search_form">
+                    <form action="">
+                        
+                            <legend>Type</legend>
+                            <div>
+                                <input type="radio" id="dog" name="dog">
+                                <label for="dog">Dog</label>
+                                <input type="radio" name="cat" id="cat">
+                                <label for="cat">Cat</label>
+                            </div>
+                            <legend>Breed Type</legend>
+                            <div>
+                                <input type="radio" name="any" id="any">
+                                <label for="any">Any</label>
+                                <input type="radio" name="male" id="male">
+                                <label for="male">Male</label>
+                                <input type="radio" name="female" id="female">
+                                <label for="female">Female</label>
+                            </div>
+                            <legend>Sex</legend>
+                            <div>
+                                <input type="radio" name="any" id="any">
+                                <label for="any">Any</label>
+                                <input type="radio" name="male" id="male">
+                                <label for="male">Male</label>
+                                <input type="radio" name="female" id="female">
+                                <label for="female">Female</label>
+                            </div>
+                            <legend>Length of Care:</legend>
+                            <div>
+                                <input type="radio" name="adopt" id="adopt">
+                                <label for="adopt">Adopt</label>
+                                <input type="radio" name="foster" id="foster">
+                                <label for="foster">Foster</label>
+                            </div>
+                        
+                    </form>
+                </div>
             </div>
         </section>
     </main>
